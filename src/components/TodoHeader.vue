@@ -6,8 +6,8 @@
    <header>
         <nav class="container">
             <div class="branding">
-                <img src="../assets/Vue_Logo_Black.png" alt="">
-                <h1>Vue Todos</h1>
+                <img src="../assets/logo.png" alt="">
+                <h1>To-Do List</h1>
             </div>
 
             <ul class="nav-routes">
@@ -19,38 +19,46 @@
 </template>
 
 <style lang="scss" scoped>
- header {
-  background-color: #f1f1f1;
-  nav {
-    display: flex;
-    align-items: center;
-    padding: 25px 16px;
+	header 
+	{
+		background-color: #f1f1f1;
+		nav 
+		{
+			display: flex;
+			align-items: center;
+			padding: 25px 16px;
 
-    .branding {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      img {
-        max-width: 50px;
-      }
+			.branding 
+			{
+				display: flex;
+				align-items: center;
+				gap: 8px;
 
-      h1 {
-        font-size: 24px;
-      }
-    }
+				img 
+				{
+					max-width: 50px;
+				}
 
-    .nav-routes {
-      display: flex;
-      flex: 1;
-      justify-content: flex-end;
-      gap: 12px;
-      list-style: none;
+				h1 
+				{
+					font-size: 24px;
+				}
+			}
 
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-    }
-  }
-}
+			.nav-routes 
+			{
+				display: flex;
+				flex: 1;
+				justify-content: flex-end;
+				gap: 12px;
+				list-style: none;
+
+				a 
+				{
+					text-decoration: none;
+					color: inherit;
+				}
+			}
+		}
+	}
 </style>

@@ -11,7 +11,8 @@
 
 
 <style lang="scss" scoped>
-    button {
+    button 
+    {
         padding: 8px 16px;
         border: none;
     }
